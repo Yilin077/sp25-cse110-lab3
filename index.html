@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting minutes for the Pomodoro Timer">
+    <title>Meeting Minutes - Pomodoro Timer</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
 
+    <header>
+      <h1>Pomodoro Timer Meeting Minutes</h1>
+      <nav>
+        <ul>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished-business">Unfinished Business</a></li>
+          <li><a href="#new-business">New Business</a></li>
+          <li><a href="#comments">Comments</a></li>
+        </ul>
+      </nav>
+    </header>       
+
+    <main>
+      <section>
+        <h2>Meeting Topic: Pomodoro Timer</h2>
+        <h3>Date: April 6, 2025</h3>
+
+        <h4>Attendance</h4>
+        <ul>
+          <li><i>Jeff</i></li>
+          <li><i>Larry</i></li>
+          <li><i></i></li>
+        </ul>
+      </section>
+      <section id="agenda">
+        <h4>Agenda</h4>
+        <ol>
+          <li>Discuss core features of the Pomodoro timer</li>
+          <li>Review <em>existing solutions</em></li>
+          <li>Assign initial research tasks</li>
+        </ol>
+      </section>
+      
+      <section id="unfinished-business">
+        <h4>Unfinished Business</h4>
+        <ul>
+          <li><b>Finalize</b> feature list from previous discussions</li>
+          <li>Decide on stack</li>
+        </ul>
+      </section>
+      
+      <section id="new-business">
+        <h4>New Business</h4>
+        <div>
+          <ul>
+            <li>Suggested adding break reminders</li>
+            <li>Discussed layout</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="comments">
+        <h4>Comments / Questions / Concerns</h4>
+        <ul>
+          <li>Jeff no comments</li>
+          <li>Larry <span>no comments</span></li>
+          <li><strong>no comments</strong></li>
+        </ul>
+      </section>
+
+      <section>
+        <h4>Diagrams / Whiteboard Photos</h4>
+        <p>Description: Pomodoro Timer</p>
+        <img src="pomodoro-timer.jpg" alt="Pomodoro Timer">
+      </section>
+      
+      <section>
+        <details>
+          <summary>Click to view note</summary>
+          <p>This includes summary</p>
+        </details>
+      </section>
+      
+      <hr>
+      <section id="form">
+        <h2>Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>What is your name and when is your meeting</legend>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="meeting">Meeting:</label><br>
+            <input type="date" id="meeting" name="meeting"><br><br>
+          </fieldset>
+          
+          <fieldset>
+            <legend>Work Mode</legend>
+            <input type="radio" id="solo" name="workmode" value="solo">
+            <label for="solo">Solo</label><br>
+            <input type="radio" id="pairs" name="workmode" value="pairs">
+            <label for="pairs">Pairs</label><br><br>
+            <input type="checkbox" id="updates" name="updates" checked>
+            <label for="updates">Updates</label><br><br>
+
+            <label for="satisfaction">Select your satisfaction:</label><br>
+            <select id="satisfaction" name="satisfaction">
+              <option value="satisfy">Satisfy</option>
+              <option value="notsatisfy">Not Satisfy</option>
+            </select><br><br>
+            
+            <label for="topic">Topic:</label><br>
+            <input list="topics" name="topic" id="topic">
+            <datalist id="topics">
+              <option value="topic one">
+              <option value="topic two">
+            </datalist><br><br>
+            
+            <label for="feedback">Feedback:</label><br>
+            <textarea id="feedback" name="feedback" rows="3" cols="30" ></textarea><br><br>
+          </fieldset>
+          <button type="submit">Submit feedback</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>2025 Pomodoro Timer</p>
+    </footer>
+  </body>
+</html>
