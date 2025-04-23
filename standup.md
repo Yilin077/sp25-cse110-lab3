@@ -1,7 +1,7 @@
 # Daily Standup Notes
 
 **Date:** 2025-04-22  
-**Sprint:** Sprint 2 – Pomodoro Timer Development 
+**Sprint:** Sprint 2 – Pomodoro Timer Development  
 **Facilitator:** Jeff  
 
 ---
