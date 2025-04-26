@@ -180,13 +180,11 @@ section:has(img) {
 }
 
 /* Nested Selectors (Supported in modern CSS or via preprocessors like Sass) */
-form {
-  & label {
+form label {
     display: block;
-  }
+}
 
-  & input[type="date"] {
+form input[type="date"] {
     font-size: 1em;
-  }
 }
 
